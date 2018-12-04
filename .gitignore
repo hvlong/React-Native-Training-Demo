@@ -1,3 +1,5 @@
+
+IDEWorkspaceChecks.plist
 # OSX
 #
 .DS_Store
@@ -21,6 +23,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+ios/Pods
 
 # Android/IntelliJ
 #
@@ -35,6 +38,8 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+yarn.lock
+app/yarn.lock
 
 # BUCK
 buck-out/
@@ -54,3 +59,7 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# Jest
+#
+.jest/
